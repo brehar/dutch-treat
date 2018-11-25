@@ -1,0 +1,17 @@
+{
+  "name": "dutch-treat",
+  "version": "0.0.1",
+  "private": true,
+  "description": "An ASP.NET Core 2.1 app from scratch (using Angular 6 on the front-end)",
+  "main": "DutchTreat/wwwroot/index.html",
+  "scripts": {
+    "dev": "dotnet watch run"
+  },
+  "author": "Brett Hartman <brett.hartman@mac.com> (https://github.com/brehar)",
+  "license": "MIT",
+  "homepage": "https://github.com/brehar/dutch-treat",
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "jquery": "^3.3.1"
+  }
+}
