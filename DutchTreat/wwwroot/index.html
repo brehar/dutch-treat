@@ -4,8 +4,41 @@
         <meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Dutch Treat</title>
+        <link rel="stylesheet" href="css/site.css" />
     </head>
     <body>
-		<h1>Dutch Treat</h1>
+		<h2>Dutch Treat</h2>
+		<div class="product-info">
+			<img src="img/VanGogh.jpg" alt="VanGogh" />
+            <h3>Mug</h3>
+            <ul class="product-props">
+                <li>Price: $9.99</li>
+                <li>Artist: Van Gogh</li>
+                <li>Title: </li>
+                <li>Description: Self-Portrait</li>
+            </ul>
+            <button>Buy</button>
+		</div>
+        <div id="message-form">
+            <form>
+                <label for="name">Your Name:</label>
+                <br />
+                <input type="text" id="name" />
+                <br />
+                <label for="email">Email Address:</label>
+                <br />
+                <input type="email" id="email" />
+                <br />
+                <label for="subject">Subject:</label>
+                <br />
+                <input type="text" id="subject" />
+                <br />
+                <label for="message">Messsage:</label>
+                <br />
+                <textarea rows="4" id="message"></textarea>
+                <br />
+                <input type="submit" value="Send Message" />
+            </form>
+        </div>
     </body>
 </html>
